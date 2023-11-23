@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  /* Removes padding and margin from all default styling
+  i.e. blank slate */
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Verdana';
+    font-weight: 400;
+}
