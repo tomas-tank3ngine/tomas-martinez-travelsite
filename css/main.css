@@ -1,0 +1,47 @@
+.hero__section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FEFAF5;
+    flex-wrap: wrap-reverse;
+    padding: 60px 0;
+}
+
+.hero__left-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    width: 580px;    
+}
+
+.hero__slogan-tagline{
+    color: #335576;
+    font-size: 38px;
+    margin: 20px 0;
+}
+
+.hero__slogan-description{
+    color: #335576;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.hero__button{
+    background-color: #DB7A4E;
+    color: white;
+    border-radius: 980px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin: 20px 0;
+}
+
+.hero__right-container{
+    display: flex;
+    justify-content: center;
+    width: 430px;
+}
+
+.hero__image{
+
+    width: 100%;
+}

@@ -21,13 +21,13 @@ body{
 a {
     text-decoration: none;
 }
-/*#region NAVIGATION */
+/*#region HEADER */
 .header__section{
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 7%;
+    padding: 6px 7%;
 }
 
 .navigation__wordmark{
@@ -50,7 +50,7 @@ a {
 }
 /* #endregion */
 
-/* region FOOTER */
+/* #region FOOTER */
 .footer__section{
     display: flex;
     justify-content: space-evenly;
