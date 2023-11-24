@@ -55,19 +55,20 @@ a {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 20px 20px;
     background-color: #FEFAF5;
 }
 
 .footer__container{
     display: flex;
     flex-direction: column;
-    /* margin: 20px; */
+    justify-content: space-between;
 }
 
 .footer__info-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__info-details-container{
@@ -91,7 +92,8 @@ a {
 
 .footer__icon{
     display: inline-block;
-    width: 50px;
+    margin-right: 20px;
+    height: 25px;
 }
 
 
