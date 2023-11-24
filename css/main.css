@@ -49,5 +49,48 @@
 /* #endregion */
 
 /* #region RECOMMENDATIONS SECTION*/
+.recommendations__section{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+}
+.recommendations__title{
+    color: #335576;
+}
 
+/* Card component and container found in global.css */
+.card__recommendation-hawaii{
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/hawaii.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.card__recommendation-iceland{
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/iceland.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.card__recommendation-greece{
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/greece.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.card__recommendation-text{
+    color: white;
+    margin: 20px;
+}
 /* #endregion */

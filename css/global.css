@@ -53,6 +53,23 @@ a {
 }
 /* #endregion */
 
+/* #region CARD COMPONENT */
+.card__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    width:260px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0, 0.2);
+    box-shadow: 0 4px 4px rgba(0,0,0, 0.2);
+}
+
+/* #endregion */
+
 /* #region FOOTER */
 .footer__section{
     display: flex;
