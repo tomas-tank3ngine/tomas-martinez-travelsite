@@ -1,0 +1,45 @@
+.itinerary__section{
+    padding: 20px;
+    /* height: 800px; */
+}
+
+.itinerary__hawaii{
+    background-image: url(/assets/images/hawaii.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.itinerary__destination{
+    color: white;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.activity__container{
+    height: 100%;
+    background-color: white;
+    border-radius: inherit;
+}
+
+.activity__day{
+
+}
+
+.activity__ulist{
+
+}
+
+.activity__item{
+
+}
+
+.activity__ulist{
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation__ulist-item{
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: solid #DB7A4E;
+}

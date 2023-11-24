@@ -64,6 +64,7 @@
     width: 100%;
     background-image: url(/assets/images/hawaii.jpg);
     background-size: cover;
+    border-radius: inherit;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
@@ -74,6 +75,7 @@
     width: 100%;
     background-image: url(/assets/images/iceland.jpg);
     background-size: cover;
+    border-radius: inherit;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
@@ -84,6 +86,7 @@
     width: 100%;
     background-image: url(/assets/images/greece.jpg);
     background-size: cover;
+    border-radius: inherit;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
