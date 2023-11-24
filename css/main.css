@@ -1,9 +1,10 @@
+/* #region HERO */
 .hero__section{
     display: flex;
     justify-content: space-evenly;
     background-color: #FEFAF5;
     flex-wrap: wrap-reverse;
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 .hero__left-container{
@@ -45,3 +46,8 @@
 
     width: 100%;
 }
+/* #endregion */
+
+/* #region RECOMMENDATIONS SECTION*/
+
+/* #endregion */

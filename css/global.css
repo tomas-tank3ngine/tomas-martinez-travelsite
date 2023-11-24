@@ -11,6 +11,7 @@ padding: 0;
 
 html {
     scroll-behavior: smooth;
+    height: 2000px;
 }
 
 body{
@@ -28,6 +29,8 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 6px 7%;
+    position: sticky;
+    top: 0px;
 }
 
 .navigation__wordmark{
