@@ -92,6 +92,10 @@
     align-items: flex-end;
 }
 
+.card__recommendation-hawaii:hover, .card__recommendation-iceland:hover, .card__recommendation-greece:hover{
+    border:#DB7A4E 5px solid;
+}
+
 .card__recommendation-text{
     color: white;
     margin: 20px;
