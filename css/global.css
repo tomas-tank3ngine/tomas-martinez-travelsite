@@ -2,8 +2,6 @@
     box-sizing: border-box;
   }
 
-  /* Removes padding and margin from all default styling
-  i.e. blank slate */
 * {
 margin: 0;
 padding: 0;
@@ -11,13 +9,12 @@ padding: 0;
 
 html {
     scroll-behavior: smooth;
-    /* height: 2000px; */
+    height: 100vh;
 }
 
 body{
     font-family: 'Verdana';
     font-weight: 400;
-    min-height: 100vh;    
 }
 
 a {
@@ -35,7 +32,8 @@ a {
 }
 
 .navigation__wordmark{
-    color: #335576    
+    color: #335576;
+    text-align: center; 
 }
 
 .navigation__nav-bar{
@@ -50,6 +48,10 @@ a {
 .navigation__ulist-item{
     margin: 0 10px;
     padding: 10px 0;
+    color: black;
+}
+
+.navigation__ulist-item.active-page{
     border-bottom: solid #DB7A4E;
 }
 /* #endregion */
