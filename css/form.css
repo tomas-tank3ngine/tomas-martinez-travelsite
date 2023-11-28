@@ -1,0 +1,81 @@
+.form__section{
+    padding: 1.3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 60vw;
+    max-width: 31.25rem;
+    min-width: 18.75rem;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+.form__title{
+    color: #335576;
+    font-size: 2.375rem;
+    margin: 0.3rem 0;
+}
+
+.form__p{
+    color: #335576;
+    font-size: 0.938rem;
+    margin: 0.3rem 0;
+}
+
+.form__fieldset{
+    padding: 1rem 0;
+    border: none;
+    border-bottom: #DB7A4E solid 0.188rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    margin: 0.5rem 0;
+}
+
+.form__input{
+    margin: 0.625rem 0 0 0;
+    width: 100%;
+    min-height: 2rem;
+    background-color: #FEFAF5;
+    border: 0.063rem solid #0a0a23;
+    color: black;
+}
+
+.form__textarea{
+    margin: 0.625rem 0 0 0;
+    width: 100%;
+    min-height: 2rem;
+    background-color: #FEFAF5;
+    border: 0.063rem solid #0a0a23;
+    color: black;
+}
+
+.form__select{
+    margin: 0.625rem 0 0 0;
+    width: 100%;
+    min-height: 2rem;
+    font-size: 1.15rem;
+    padding: 0.675rem 6rem 0.675rem 1rem;
+    background-color: #FEFAF5;
+    border: 0.063rem solid #0a0a23;
+    border-radius: 0.25rem;
+    color: #000;
+}
+
+.form__select-option{
+    background-color: #FEFAF5;
+}  
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+    display: inline; 
+  }

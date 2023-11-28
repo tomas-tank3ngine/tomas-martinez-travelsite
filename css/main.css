@@ -24,16 +24,6 @@
     margin: 1.3rem 0;
 }
 
-.hero__button{
-    background-color: #DB7A4E;
-    color: white;
-    border-radius: 61.25rem;
-    width: 10rem;
-    height: 2.5rem;
-    border: none;
-    margin: 1.3rem 0;
-}
-
 .hero__right-container{
     display: flex;
     justify-content: center;

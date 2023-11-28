@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Site</title>
+        <link href="/css/global.css" rel="stylesheet">
+        <link href="/css/form.css" rel="stylesheet">
+    </head>
+
+    <body class="body">
+        
+        <header class="header">
+            <a href="/index.html"><h3 class="header__wordmark">Travel Site</h3></a>
+            <nav class="navigation">
+                <ul class="navigation__ulist">
+                    <a class="navigation__link" href="/index.html"><li class="navigation__ulist-item">Home</li></a>
+                    <a class="navigation__link" href="/pages/hawaii.html"><li class="navigation__ulist-item">Hawaii</li></a>
+                    <a class="navigation__link" href="/pages/iceland.html"><li class="navigation__ulist-item">Iceland</li></a>
+                    <a class="navigation__link" href="/pages/greece.html"><li class="navigation__ulist-item active-page">Greece</li></a>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main">        
+            <section class="form__section">
+                <h1 class="form__title">Registration Form</h1>
+                <p class="form__p">Please fill out this form with the required information</p>
+                <form class="form" method="post" action='https://www.placeholder.com/'>
+                <fieldset class="form__fieldset">
+                    <label class="form__label" for="first-name">Enter Your First Name: <input class="form__input" id="first-name" name="first-name" type="text" required /></label>
+                    <label class="form__label" for="last-name">Enter Your Last Name: <input class="form__input" id="last-name" name="last-name" type="text" required /></label>
+                    <label class="form__label" for="email">Enter Your Email: <input class="form__input" id="email" name="email" type="email" required /></label>
+                    <label class="form__label" for="new-password">Create a New Password (4-8 lowercase letters or numbers): <input class="form__input" id="new-password" name="new-password" type="password" pattern="[a-z0-9]{4,8}" required /></label>
+                </fieldset>
+            
+                <fieldset class="form__fieldset">
+                    <label class="form__label" for="referrer">Select your desired destination
+                    <select class="form__select" id="destination" name="destination">
+                        <option value="">(select one)</option>
+                        <option value="1">Hawaii</option>
+                        <option value="2">Iceland</option>
+                        <option value="3">Greece</option>
+                    </select>
+                    </label>
+                    <label class="form__label" for="bio">Is there anything else we should know to accommodate you?
+                    <textarea class="form__textarea" id="accommodations" name="accommodations" rows="3" cols="30" placeholder="Allergies, health concerns, etc..."></textarea>
+                    </label>
+                </fieldset>
+                <label class="form__label" for="terms-and-conditions">
+                    <input class="inline form__input" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.placeholder/terms-of-service/">terms and conditions</a>
+                </label>
+                <input class="default-button" type="submit" value="Submit" />
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="footer__container">
+                <h2 class="footer__container-title">Contact</h2>
+                <div class="footer__info-details-container">
+                    <p class="footer__p--subtitle">EMAIL</p>
+                    <a href=""><p class="footer__p">info@travelsite.com</p></a>
+                </div>
+            </section>
+            <section class="footer__container">
+                <h2 class="footer__container-title">Hours</h2>
+                <div class="footer__info-container">
+                    <div class="footer__info-details-container">
+                        <p class="footer__p--subtitle">MONDAY - FRIDAY</p>
+                        <a><p class="footer__p">9:00 AM - 5:00 PM</p></a>
+                    </div>
+                    <div class="footer__info-details-container">
+                        <p class="footer__p--subtitle">SATURDAY</p>
+                        <a><p class="footer__p">10:00 AM - 4:00 PM</p></a>
+                    </div>
+                    <div class="footer__info-details-container">
+                        <p class="footer__p--subtitle">SUNDAY</p>
+                        <a><p class="footer__p">Closed</p></a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer__container">
+                <h2 class="footer__container-title">Social</h2>
+                <div class="footer__info-details-container">
+                    <a href="https://www.instagram.com/"><img class="footer__icon" src="/assets/images/icon-instagram.png" alt="instagram icon"></a>
+                    <a href="https://www.facebook.com/"><img class="footer__icon" src="/assets/images/icon-facebook.png" alt="facebook icon"></a>
+                    <a href="https://twitter.com/home"><img class="footer__icon" src="/assets/images/icon-twitter.png" alt="X (formerly twitter) icon"></a>
+                </div>
+            </section>
+        </footer>
+    </body> 
+</html>
